@@ -18,11 +18,9 @@ function selecttopic() {
         console.log("Let's study CSS!");
       } else if (randomTopics === 'Git') {
         console.log("Let's study Git!");
-      } else if (randomTopics === 'JavaScript') {
+      } else (randomTopics === 'JavaScript') {
         console.log("Let's study JavaScript!");
-      } else {
-        console.log('Please try again!');
-      }
+      } 
 }
 
 console.log('Here are the topics we learned through Prework:');
